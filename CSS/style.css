@@ -1,0 +1,25 @@
+h1{
+	font-size: 45px;
+	border-bottom-style: solid;
+	border-color: black;
+}
+.box{
+	border: 2px solid black;
+	width: 100px;
+	height: 150px;
+	display: block;
+	margin: 10px;
+	animation-name: magic;
+	animation-duration: 1s
+}
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: flex-end;
+	flex-direction: row;
+}
+@keyframes magic{
+	from{transform: rotateY(0deg);}
+	to{transform: rotateY(180deg);}
+}
