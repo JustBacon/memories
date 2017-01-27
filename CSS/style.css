@@ -3,14 +3,28 @@ h1{
 	border-bottom-style: solid;
 	border-color: black;
 }
+#stuff1 #stuff2{
+	background-image: url("../assets/potato.jpeg");
+}
 .box{
 	border: 2px solid black;
+	background-image: url("../assets/baconCard.png");
 	width: 100px;
 	height: 150px;
 	display: block;
 	margin: 10px;
-	animation-name: magic;
-	animation-duration: 1s
+	animation: magic 0.5s linear forwards;
+	animation-play-state: paused;
+}
+.boxAnimate{
+	border: 2px solid black;
+	background-image: url("../assets/baconCard.png");
+	width: 100px;
+	height: 150px;
+	display: block;
+	margin: 10px;
+	animation: magic 0.5s linear forwards;
+	animation-play-state: running;
 }
 .container{
 	display: flex;
