@@ -1,0 +1,78 @@
+h1{
+	font-size: 45px;
+	border-bottom-style: solid;
+	border-color: black;
+}
+.container{
+	perspective: 1000px;
+	width: 100px;
+	height: 150px;
+	display: block;
+	margin: 10px;
+}
+.container, .front, .back{
+	width: 220px;
+	height: 280px;
+	float: left;
+}
+.flipper{
+	transition: 1s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back{
+	backface-visibility: hidden;
+	position: absolute;
+	border: 2px solid black;
+}
+.front{
+	transform: rotateY(0deg);
+	background-image: url(../assets/baconCard.png);
+}
+.back{
+	transform: rotateY(180deg);
+	
+
+}
+@keyframes magic{
+	from{transform: rotateY(0deg);}
+	to{transform: rotateY(180deg);}
+}
+/*IMAGES*/
+.potato{
+	background-image: url(../assets/potato.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: lavender;
+	background-size: contain;
+
+}
+.mash{
+	background-image: url(../assets/mash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: lavender;
+	background-size: contain;
+}
+.hash{
+	background-image: url(../assets/hash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: lavender;
+	background-size: contain;
+
+}
+.fry{
+	background-image: url(../assets/fry.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: lavender;
+	background-size: contain;
+
+}
+/*.back, .{
+	background-image: url(../assets/fry.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: lavender;
+}*/
