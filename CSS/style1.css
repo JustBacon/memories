@@ -3,6 +3,9 @@ h1{
 	border-bottom-style: solid;
 	border-color: black;
 }
+h2{
+	visibility: hidden;
+}
 .container{
 	perspective: 1000px;
 	width: 100px;
