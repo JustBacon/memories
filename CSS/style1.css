@@ -3,8 +3,8 @@ h1{
 	border-bottom-style: solid;
 	border-color: black;
 }
-h2{
-	visibility: hidden;
+b{
+	font-size: 40px;
 }
 .container{
 	perspective: 1000px;
@@ -48,6 +48,7 @@ h2{
 	background-position: center;
 	background-color: lavender;
 	background-size: contain;
+	backface-visibility: visible;
 
 }
 .mash{
@@ -56,6 +57,7 @@ h2{
 	background-position: center;
 	background-color: lavender;
 	background-size: contain;
+	backface-visibility: visible;
 }
 .hash{
 	background-image: url(../assets/hash.jpg);
@@ -63,6 +65,7 @@ h2{
 	background-position: center;
 	background-color: lavender;
 	background-size: contain;
+	backface-visibility: visible;
 
 }
 .fry{
@@ -71,6 +74,7 @@ h2{
 	background-position: center;
 	background-color: lavender;
 	background-size: contain;
+	backface-visibility: visible;
 
 }
 /*.back, .{
